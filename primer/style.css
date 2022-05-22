@@ -1,0 +1,249 @@
+#cuentas ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+#cuentas li{
+    display: inline;
+    text-align: left;
+    margin: 0 10px 0 0;
+ }
+
+ #cuentas li a {
+    padding: 2px 7px 2px 7px;
+    color: rgb(3, 3, 3);
+    background-color: #ecd1d16b;
+    border: 1px solid rgb(82, 70, 70);
+    text-decoration: none;
+ }
+
+
+body {
+    background-image: url('img/Autumn-Forest-1920x1080.jpg');
+    color: #ffffff
+}
+
+#navegador ul{
+    list-style-type: none;
+    text-align: right;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: rgb(3, 3, 3);
+    background-color: #ecd1d1;
+    border: 1px solid rgb(82, 70, 70);
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ #navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+h1 {
+    text-align: center;
+}
+
+#carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+
+    height: 500px;
+    width: 300%;
+}
+
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.imagenes{
+    height: 500px;
+    width: 100%;
+}
+
+.carrusel-elemento {
+    float: left;
+    width: 33.333%;
+}
+h2{
+    font-style: italic;
+    color: #333333;
+    text-align: center;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    width: 80%;
+
+}
+b{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    size: 2cm;
+    background-color: #33333391;
+
+}
+.presentacion{
+    height: 10%;
+    background-color: rgba(240, 248, 255, 0.534);
+    background-size: cover;
+}
+
+.imagen{
+    float: right;
+    height: 5cm;
+    width: 5cm;
+}
+@-moz-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+#contact_form { 
+	padding: 0; 
+	width: 312px; 
+	margin-bottom: 40px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	color: rgb(139, 124, 124);  
+	background: #fff; 
+	border: 1px solid #dedede;  
+	font-size: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 5px; 
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 12px; 
+	font-size: 20px; 
+}
+
+#contact_form form textarea { 
+	width: 300px; 
+	height: 200px; 
+	padding: 5px; 
+	color: rgb(128, 120, 120); 
+	background: #fff; border: 1px solid #dedede;  
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 5px; 
+}
+
+#contact_form form .submit_btn { 
+	padding: 5px 12px; 
+	background-color: rgb(211, 33, 33); 
+	border: 1px solid #fff; 
+	color: #fff; 
+	font-size:14px; 
+	margin: 10px 0px;
+}
